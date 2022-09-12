@@ -8,12 +8,13 @@
 
 .middle {
     background-color: #FFF;
+    width: 200px;
+    height: 200px;
     border: 1px;
     border-radius: 5px;
     position: absolute;
     left: 50%;
     top: 50%;
-    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     z-index: 1;
 }
