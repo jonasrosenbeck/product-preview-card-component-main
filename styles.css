@@ -3,6 +3,7 @@
     width: 1440px;
     height: 1000px;
     z-index: 0;
+    position: absolute;
 }
 
 .middle {
