@@ -1,20 +1,86 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(https://fonts.google.com/specimen/Montserrat);
+}
+
+@font-face {
+    font-family: Fraunces;
+    src: url(https://fonts.google.com/specimen/Fraunces);
+}
+
+
 .background {
     background-color: #f3eae3;
     width: 100vw;
     height: 100vh;
     z-index: 0;
-    position: absolute;
+    position: relative;
 }
 
 .middle {
     background-color: #FFF;
-    width: 200px;
-    height: 200px;
+    width: 40%;
+    height: 54%;
     border: 1px;
-    border-radius: 5px;
+    border-radius: 10px;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
+}
+
+.middle_left {
+    position: absolute;
+    border: 1px;
+    border-radius: 10px 0px 0px 10px;
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+}
+
+.middle_left img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+}
+
+.middle_right {
+    position: absolute;
+    left: 50%;
+    margin-left: 40px;
+    margin-top: 10px
+}
+
+.font-top {
+    color: #6C7289;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.font-middle {
+    color: black;
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: 33px;
+    margin-top: -2px;
+}
+
+.font-lower {
+    color: #6C7289;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 1.5;
+    margin-top: -10px;
+}
+
+.font-lowest {
+    color: #397962;
+    font-family: Montserrat;
+    font-weight: 850;
+    font-size: 36px;
+    margin-top: 0px;
 }
